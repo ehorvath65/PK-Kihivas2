@@ -3,7 +3,6 @@
     padding: 0;
     box-sizing: border-box;
     user-select: none;
-    font-size: 1rem;
 }
 
 html {
@@ -75,7 +74,6 @@ nav a {
  nav .browse {
      display: flex;
      position: relative;
-
  }
 
  nav .browse img {
@@ -117,6 +115,7 @@ header .buttons button {
         display: block;
         width: 3rem;
     }
+
     header button:nth-child(2) {
         background-color: rgba(255, 255, 255, 0.3);
         color: white;
@@ -297,7 +296,6 @@ main .films .forward:hover {
    nav .browse ul {
        display: block;
        text-align: center;
-
    }
 
    nav .browse a {
@@ -321,7 +319,6 @@ main .films .forward:hover {
    footer {
        flex-direction: column;
        text-align: center;
-
    }
 
    .forward {
